@@ -16,7 +16,7 @@ namespace SimonDice1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bienvenido());
+            Application.Run(new SimonDice());
         }
     }
 }

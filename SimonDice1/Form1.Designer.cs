@@ -1,6 +1,6 @@
 ﻿namespace SimonDice1
 {
-    partial class Bienvenido
+    partial class SimonDice
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,71 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.Puntaje = new System.Windows.Forms.Label();
+            this.Inicio = new System.Windows.Forms.Button();
+            this.p_1 = new System.Windows.Forms.PictureBox();
+            this.p_4 = new System.Windows.Forms.PictureBox();
+            this.p_2 = new System.Windows.Forms.PictureBox();
+            this.p_3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.p_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p_3)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // Puntaje
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(279, 63);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Simón Dice";
+            this.Puntaje.AutoSize = true;
+            this.Puntaje.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Puntaje.Location = new System.Drawing.Point(280, 57);
+            this.Puntaje.Name = "Puntaje";
+            this.Puntaje.Size = new System.Drawing.Size(15, 16);
+            this.Puntaje.TabIndex = 0;
+            this.Puntaje.Text = "--";
             // 
-            // button1
+            // Inicio
             // 
-            this.button1.Location = new System.Drawing.Point(187, 198);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 34);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Un jugador";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Inicio.Location = new System.Drawing.Point(265, 387);
+            this.Inicio.Name = "Inicio";
+            this.Inicio.Size = new System.Drawing.Size(123, 36);
+            this.Inicio.TabIndex = 5;
+            this.Inicio.Text = "Iniciar juego";
+            this.Inicio.UseVisualStyleBackColor = true;
+            this.Inicio.Click += new System.EventHandler(this.Inicio_Click);
             // 
-            // button2
+            // p_1
             // 
-            this.button2.Location = new System.Drawing.Point(356, 198);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 34);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Dos jugadores";
-            this.button2.UseVisualStyleBackColor = true;
+            this.p_1.BackColor = System.Drawing.Color.Red;
+            this.p_1.Location = new System.Drawing.Point(130, 97);
+            this.p_1.Name = "p_1";
+            this.p_1.Size = new System.Drawing.Size(86, 85);
+            this.p_1.TabIndex = 6;
+            this.p_1.TabStop = false;
+            this.p_1.Click += new System.EventHandler(this.p_1_Click);
+            this.p_1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.p_1_MouseDown);
+            this.p_1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.p_1_MouseUp);
             // 
-            // button3
+            // p_4
             // 
-            this.button3.Location = new System.Drawing.Point(187, 266);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 37);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Tres jugadores";
-            this.button3.UseVisualStyleBackColor = true;
+            this.p_4.BackColor = System.Drawing.Color.DarkCyan;
+            this.p_4.Location = new System.Drawing.Point(283, 214);
+            this.p_4.Name = "p_4";
+            this.p_4.Size = new System.Drawing.Size(86, 85);
+            this.p_4.TabIndex = 7;
+            this.p_4.TabStop = false;
+            this.p_4.Click += new System.EventHandler(this.p_1_Click);
+            this.p_4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.p_4_MouseDown);
+            this.p_4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.p_4_MouseUp);
             // 
-            // button4
+            // p_2
             // 
-            this.button4.Location = new System.Drawing.Point(356, 266);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(132, 37);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Cuatro jugadores";
-            this.button4.UseVisualStyleBackColor = true;
+            this.p_2.BackColor = System.Drawing.Color.Lime;
+            this.p_2.Location = new System.Drawing.Point(283, 97);
+            this.p_2.Name = "p_2";
+            this.p_2.Size = new System.Drawing.Size(86, 85);
+            this.p_2.TabIndex = 8;
+            this.p_2.TabStop = false;
+            this.p_2.Click += new System.EventHandler(this.p_1_Click);
+            this.p_2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.p_2_MouseDown);
+            this.p_2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.p_2_MouseUp);
             // 
-            // Bienvenido
+            // p_3
+            // 
+            this.p_3.BackColor = System.Drawing.Color.Yellow;
+            this.p_3.Location = new System.Drawing.Point(130, 214);
+            this.p_3.Name = "p_3";
+            this.p_3.Size = new System.Drawing.Size(86, 85);
+            this.p_3.TabIndex = 9;
+            this.p_3.TabStop = false;
+            this.p_3.Click += new System.EventHandler(this.p_1_Click);
+            this.p_3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.p_3_MouseDown);
+            this.p_3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.p_3_MouseUp);
+            // 
+            // SimonDice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(801, 512);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Name = "Bienvenido";
-            this.Text = "Bienvenido";
+            this.Controls.Add(this.p_3);
+            this.Controls.Add(this.p_2);
+            this.Controls.Add(this.p_4);
+            this.Controls.Add(this.p_1);
+            this.Controls.Add(this.Inicio);
+            this.Controls.Add(this.Puntaje);
+            this.Name = "SimonDice";
+            this.Text = "Simón Dice";
+            ((System.ComponentModel.ISupportInitialize)(this.p_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p_3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,11 +133,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label Puntaje;
+        private System.Windows.Forms.Button Inicio;
+        private System.Windows.Forms.PictureBox p_1;
+        private System.Windows.Forms.PictureBox p_4;
+        private System.Windows.Forms.PictureBox p_2;
+        private System.Windows.Forms.PictureBox p_3;
     }
 }
 
