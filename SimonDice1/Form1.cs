@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SimonDice1
 {
@@ -18,6 +20,7 @@ namespace SimonDice1
         int tiempo = 500;
         List<int> SD = new List<int>();
         bool Hablando = false;
+        int elementosAgregados = 0;
 
         public SimonDice()
         {
@@ -41,6 +44,7 @@ namespace SimonDice1
                 Thread.Sleep(tiempo);
             }
             Hablando= false;
+
         }
 
         public void Iluminado(int i)
@@ -135,6 +139,21 @@ namespace SimonDice1
         private void p_4_MouseUp(object sender, MouseEventArgs e)
         {
             p_4.BackColor = Color.DarkCyan;
+        }
+        private void Agregar_Click(object sender, EventArgs e)
+        {
+             if (elementosAgregados < 4)
+            {
+                string nuevoElemento = Jugadores.Text;
+                lista_Jugadores.Items.Add(nuevoElemento);
+                Jugadores.Text = "";
+                elementosAgregados++;
+            }
+            else
+            {
+                Jugadores.Text = "";
+                MessageBox.Show("Maximo de jugadores es 4");               
+            }
         }
     }
 }
