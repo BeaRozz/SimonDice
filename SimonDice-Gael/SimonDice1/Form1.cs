@@ -96,6 +96,7 @@ namespace SimonDice1
                 {
                     MessageBox.Show($"{lista_Jugadores.Items[J_Act]} eliminado");
                     lista_Jugadores.Items.RemoveAt(J_Act);
+                    if (J_Act == restantes) J_Act = 0;
                     Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
                     if (restantes == 1)
                     {
