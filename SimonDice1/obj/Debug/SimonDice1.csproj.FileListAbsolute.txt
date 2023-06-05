@@ -9,3 +9,36 @@ C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice1\obj\Debug\Simon
 C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice1\obj\Debug\SimonDice1.exe
 C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice1\obj\Debug\SimonDice1.pdb
 C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice1\obj\Debug\SimonDice1.SimonDice.resources
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\bin\Debug\SimonDice1.exe.config
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\bin\Debug\SimonDice1.exe
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\bin\Debug\SimonDice1.pdb
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.csproj.AssemblyReference.cache
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.csproj.SuggestedBindingRedirects.cache
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.SimonDice.resources
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.Properties.Resources.resources
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.csproj.GenerateResource.cache
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.csproj.CoreCompileInputs.cache
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.exe
+C:\Users\gaelc\OneDrive\Escritorio\Proyecto Simon Dice\SimonDice1\obj\Debug\SimonDice1.pdb
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\bin\Debug\SimonDice1.exe.config
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\bin\Debug\SimonDice1.exe
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\bin\Debug\SimonDice1.pdb
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.AssemblyReference.cache
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.SuggestedBindingRedirects.cache
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.SimonDice.resources
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.Properties.Resources.resources
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.GenerateResource.cache
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.CoreCompileInputs.cache
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.exe
+C:\Users\asuca\Dropbox\Mi PC (LAPTOP-FLCQ6OSI)\Downloads\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.pdb
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\bin\Debug\SimonDice1.exe.config
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\bin\Debug\SimonDice1.exe
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\bin\Debug\SimonDice1.pdb
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.AssemblyReference.cache
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.SuggestedBindingRedirects.cache
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.SimonDice.resources
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.Properties.Resources.resources
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.GenerateResource.cache
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.csproj.CoreCompileInputs.cache
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.exe
+C:\Users\asuca\OneDrive\Documentos\repos-SO\SimonDice\SimonDice-Gael\SimonDice1\obj\Debug\SimonDice1.pdb

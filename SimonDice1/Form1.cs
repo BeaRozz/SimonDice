@@ -1,13 +1,16 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SimonDice1
 {
@@ -18,6 +21,10 @@ namespace SimonDice1
         int tiempo = 500;
         List<int> SD = new List<int>();
         bool Hablando = false;
+        int elementosAgregados = 0;
+        int restantes = 0;
+        int J_Act = 0;
+        bool keep = true;
 
         public SimonDice()
         {
@@ -29,6 +36,8 @@ namespace SimonDice1
         {
             SD.Add(NumeroAleatorio.Next(1,5));
             new Thread(Iniciar_Juego).Start();
+            Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
+            restantes = elementosAgregados;
         }
 
         public void Iniciar_Juego()
@@ -41,6 +50,7 @@ namespace SimonDice1
                 Thread.Sleep(tiempo);
             }
             Hablando= false;
+
         }
 
         public void Iluminado(int i)
@@ -76,15 +86,41 @@ namespace SimonDice1
             if (SD[CtrlSec] == val) CtrlSec++;
             else
             {
-                MessageBox.Show($"Tu Record final es: {SD.Count - 1}");
-                CtrlSec = 0;
-                SD = new List<int>();
+                restantes = restantes - 1;
+                if (restantes == 0)
+                {
+                    MessageBox.Show($"Tu récord final es: {SD.Count - 1}");
+                    keep = false;
+                }
+                else
+                {
+                    MessageBox.Show($"{lista_Jugadores.Items[J_Act]} eliminado");
+                    lista_Jugadores.Items.RemoveAt(J_Act);
+                    if (J_Act == restantes) J_Act = 0;
+                    Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
+                    if (restantes == 1)
+                    {
+                        MessageBox.Show($"{lista_Jugadores.Items[J_Act]} es el ganador");
+                        //CtrlSec = 0;
+                        //SD = new List<int>();
+                        keep = false;
+                        lista_Jugadores.Items.RemoveAt(J_Act);
+                    }
+                    else
+                    {
+                        new Thread(Iniciar_Juego).Start();
+                    }
+                }
+
             }
             
-            if(CtrlSec >= SD.Count)
+            if(CtrlSec >= SD.Count && keep)
             {
                 CtrlSec = 0;
                 SD.Add(NumeroAleatorio.Next(1, 5));
+                if (J_Act == restantes - 1) J_Act = 0;
+                else J_Act++;
+                Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
                 new Thread(Iniciar_Juego).Start();
             }
             Puntaje.Text = (SD.Count-1).ToString();
@@ -135,6 +171,21 @@ namespace SimonDice1
         private void p_4_MouseUp(object sender, MouseEventArgs e)
         {
             p_4.BackColor = Color.DarkCyan;
+        }
+        private void Agregar_Click(object sender, EventArgs e)
+        {
+             if (elementosAgregados < 4)
+            {
+                string nuevoElemento = Jugadores.Text;
+                lista_Jugadores.Items.Add(nuevoElemento);
+                Jugadores.Text = "";
+                elementosAgregados++;
+            }
+            else
+            {
+                Jugadores.Text = "";
+                MessageBox.Show("Maximo de jugadores es 4");               
+            }
         }
     }
 }
