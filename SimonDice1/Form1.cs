@@ -86,6 +86,7 @@ namespace SimonDice1
             {
                 MessageBox.Show($"{lista_Jugadores.Items[J_Act]} eliminado, su puntuación es: {Puntaje_Lista.Items[J_Act]}");
                 lista_Jugadores.Items.RemoveAt(J_Act);
+                Puntaje_Lista.Items.RemoveAt(J_Act);
                 CtrlSec = 0;
 
                 if (lista_Jugadores.Items.Count == 0) ResetGame();
@@ -93,6 +94,7 @@ namespace SimonDice1
                 {
                     if (J_Act == lista_Jugadores.Items.Count) J_Act = 0;
                     Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
+                    Puntaje.Text = Puntaje_Lista.Items[J_Act].ToString();
                     new Thread(Iniciar_Juego).Start();
                 }
 
