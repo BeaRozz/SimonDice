@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuromi 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuromi 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my melody 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my melody 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pochaco 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pochaco 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pom 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pom 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chococat 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kepo 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitty 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirby 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idk 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chococat 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idk 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kepo 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitty 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chococat 1.1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chococat 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choco 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choco 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badt 1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badt 1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

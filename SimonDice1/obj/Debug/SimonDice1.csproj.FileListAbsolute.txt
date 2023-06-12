@@ -53,3 +53,14 @@ D:\Uni\Segundo Semestre\Algoritmos\SimonDice1\obj\Debug\SimonDice1.csproj.Genera
 D:\Uni\Segundo Semestre\Algoritmos\SimonDice1\obj\Debug\SimonDice1.csproj.CoreCompileInputs.cache
 D:\Uni\Segundo Semestre\Algoritmos\SimonDice1\obj\Debug\SimonDice1.exe
 D:\Uni\Segundo Semestre\Algoritmos\SimonDice1\obj\Debug\SimonDice1.pdb
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\bin\Debug\SimonDice1.exe.config
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\bin\Debug\SimonDice1.exe
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\bin\Debug\SimonDice1.pdb
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.csproj.AssemblyReference.cache
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.csproj.SuggestedBindingRedirects.cache
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.SimonDice.resources
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.Properties.Resources.resources
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.csproj.GenerateResource.cache
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.csproj.CoreCompileInputs.cache
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.exe
+C:\Users\yorli\Source\Repos\SimonDice\SimonDice1\obj\Debug\SimonDice1.pdb

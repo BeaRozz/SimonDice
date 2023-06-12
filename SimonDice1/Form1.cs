@@ -33,7 +33,7 @@ namespace SimonDice1
         {
             Agregar.Enabled = false;
             Inicio.Enabled = false;
-            SD.Add(NumeroAleatorio.Next(1,5));
+            SD.Add(NumeroAleatorio.Next(1,11));
             new Thread(Iniciar_Juego).Start();
             Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
             Puntaje.Text = Puntaje_Lista.Items[J_Act].ToString();
@@ -56,36 +56,63 @@ namespace SimonDice1
             switch (i)
             {
                 case 1:
-                    p_1.BackColor = Color.Salmon;
+                    p_1.Image = Properties.Resources.kuromi_1_1;
                     Thread.Sleep(tiempo);
-                    p_1.BackColor = Color.Red;
+                    p_1.Image = Properties.Resources.kuromi_1;
                     break;
                 case 2:
-                    p_2.BackColor = Color.SpringGreen;
+                    p_2.Image = Properties.Resources.my_melody_1_1;
                     Thread.Sleep(tiempo);
-                    p_2.BackColor = Color.Green;
+                    p_2.Image = Properties.Resources.my_melody_1;
                     break;
                 case 3:
-                    p_3.BackColor = Color.LightGoldenrodYellow;
+                    p_3.Image = Properties.Resources.pochaco_1_1;
                     Thread.Sleep(tiempo);
-                    p_3.BackColor = Color.Yellow;
+                    p_3.Image = Properties.Resources.pochaco_1;
                     break;
                 case 4:
-                    p_4.BackColor = Color.LightCyan;
+                    p_4.Image = Properties.Resources.pom_1_1;
                     Thread.Sleep(tiempo);
-                    p_4.BackColor = Color.DarkCyan;
+                    p_4.Image = Properties.Resources.pom_1; 
                     break;
+                case 5:
+                    p_5.Image = Properties.Resources.kitty_1_1;
+                    Thread.Sleep(tiempo);
+                    p_5.Image = Properties.Resources.kitty_1;
+                    break;
+                case 6:
+                    p_6.Image = Properties.Resources.kepo_1_1;
+                    Thread.Sleep(tiempo);
+                    p_6.Image = Properties.Resources.kepo_1;
+                    break;
+                case 7:
+                    p_7.Image = Properties.Resources.choco_1_1;
+                    Thread.Sleep(tiempo);
+                    p_7.Image = Properties.Resources.choco_1;
+                    break;
+                case 8:
+                    p_8.Image = Properties.Resources.badt_1_1;
+                    Thread.Sleep(tiempo);
+                    p_8.Image = Properties.Resources.badt_1;
+                    break;
+                case 9:
+                    p_9.Image = Properties.Resources.idk_1_1;
+                    Thread.Sleep(tiempo);
+                    p_9.Image = Properties.Resources.idk_1;
+                    break;
+
             }
         }
 
         public void Verificar_Btn(int val)
         {
-            if (Hablando || SD.Count == 0) return;
+            if(Hablando || SD.Count == 0) return;
             if (SD[CtrlSec] == val) CtrlSec++;
             else
             {
                 MessageBox.Show($"{lista_Jugadores.Items[J_Act]} eliminado, su puntuación es: {Puntaje_Lista.Items[J_Act]}");
                 lista_Jugadores.Items.RemoveAt(J_Act);
+                Puntaje_Lista.Items.RemoveAt(J_Act);
                 CtrlSec = 0;
 
                 if (lista_Jugadores.Items.Count == 0) ResetGame();
@@ -93,6 +120,7 @@ namespace SimonDice1
                 {
                     if (J_Act == lista_Jugadores.Items.Count) J_Act = 0;
                     Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
+                    Puntaje.Text = Puntaje_Lista.Items[J_Act].ToString();
                     new Thread(Iniciar_Juego).Start();
                 }
 
@@ -140,43 +168,94 @@ namespace SimonDice1
 
         private void p_1_MouseDown(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_1.BackColor = Color.Salmon;
+            if (Hablando == false) p_1.Image = Properties.Resources.kuromi_1_1;
         }
 
         private void p_1_MouseUp(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_1.BackColor = Color.Red;
+            if (Hablando == false) p_1.Image = Properties.Resources.kuromi_1;
         }
 
         private void p_2_MouseDown(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_2.BackColor = Color.SpringGreen;
+            if (Hablando == false) p_2.Image = Properties.Resources.my_melody_1_1;
         }
 
         private void p_2_MouseUp(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_2.BackColor = Color.Green;
+            if (Hablando == false) p_2.Image = Properties.Resources.my_melody_1;
         }
 
         private void p_3_MouseDown(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_3.BackColor = Color.LightGoldenrodYellow;
+            if (Hablando == false) p_3.Image = Properties.Resources.pochaco_1_1;
         }
 
         private void p_3_MouseUp(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_3.BackColor = Color.Yellow;
+            if (Hablando == false) p_3.Image = Properties.Resources.pochaco_1;
         }
 
         private void p_4_MouseDown(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_4.BackColor = Color.LightCyan;
+            if (Hablando == false) p_4.Image = Properties.Resources.pom_1_1;
         }
 
         private void p_4_MouseUp(object sender, MouseEventArgs e)
         {
-            if (Hablando == false) p_4.BackColor = Color.DarkCyan;
+            if (Hablando == false) p_4.Image = Properties.Resources.pom_1;
         }
+
+        private void p_5_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_5.Image = Properties.Resources.kitty_1_1;
+        }
+
+        private void p_5_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_5.Image = Properties.Resources.kitty_1;
+        }
+
+        private void p_6_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_6.Image = Properties.Resources.kepo_1_1;
+        }
+
+        private void p_6_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_6.Image = Properties.Resources.kepo_1;
+        }
+
+        private void p_7_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_7.Image = Properties.Resources.choco_1_1;
+        }
+
+        private void p_7_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_7.Image = Properties.Resources.choco_1;
+        }
+
+        private void p_8_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_8.Image = Properties.Resources.badt_1_1;
+        }
+
+        private void p_8_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_8.Image = Properties.Resources.badt_1;
+        }
+
+        private void p_9_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_9.Image = Properties.Resources.idk_1_1;
+        }
+
+        private void p_9_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (Hablando == false) p_9.Image = Properties.Resources.idk_1;
+        }
+
         private void Agregar_Click(object sender, EventArgs e)
         {
             Inicio.Enabled = true; 
