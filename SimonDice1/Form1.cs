@@ -33,7 +33,7 @@ namespace SimonDice1
         {
             Agregar.Enabled = false;
             Inicio.Enabled = false;
-            SD.Add(NumeroAleatorio.Next(1,11));
+            SD.Add(NumeroAleatorio.Next(1,10));
             new Thread(Iniciar_Juego).Start();
             Jugador.Text = lista_Jugadores.Items[J_Act].ToString();
             Puntaje.Text = Puntaje_Lista.Items[J_Act].ToString();
