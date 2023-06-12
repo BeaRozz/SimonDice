@@ -160,7 +160,7 @@
             // Jugador
             // 
             this.Jugador.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jugador.Location = new System.Drawing.Point(459, 89);
+            this.Jugador.Location = new System.Drawing.Point(532, 101);
             this.Jugador.Margin = new System.Windows.Forms.Padding(4);
             this.Jugador.Name = "Jugador";
             this.Jugador.ReadOnly = true;
@@ -357,7 +357,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(335, 92);
+            this.label1.Location = new System.Drawing.Point(451, 103);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 20);
             this.label1.TabIndex = 27;

@@ -10,12 +10,14 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SimonDice1
 {
     public partial class SimonDice : Form
     {
+
         int CtrlSec = 0;
         Random NumeroAleatorio;
         int tiempo = 300;
@@ -31,6 +33,7 @@ namespace SimonDice1
 
         private void Inicio_Click(object sender, EventArgs e)
         {
+
             Agregar.Enabled = false;
             Inicio.Enabled = false;
             SD.Add(NumeroAleatorio.Next(1,10));
